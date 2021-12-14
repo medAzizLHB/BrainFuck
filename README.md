@@ -21,3 +21,6 @@
  "[" : Go to next instruction if cell is not null, or to the matching closing "]" if null
  
  "]" : Go back to the matching opening "[" if cell is not null, or go to next instruction if null
+ 
+ Go here to try the BF yourself: http://www.bf.doleczek.pl/
+
