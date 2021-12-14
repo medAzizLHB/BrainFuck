@@ -6,18 +6,18 @@
  
  
  
-.  > : Move memory pointer to the right and go to next instruction 
+ ">" : Move memory pointer to the right and go to next instruction 
  
- < : Move memory pointer to the left and go to next instruction 
+ "<" : Move memory pointer to the left and go to next instruction 
  
- + : Increment memory cell and go to next instruction 
+ "+" : Increment memory cell and go to next instruction 
  
- - : Decrement memory cell and go to next instruction 
+ "-" : Decrement memory cell and go to next instruction 
  
- , : Read char from input and store in memory then go to next instruction 
+ "," : Read char from input and store in memory then go to next instruction 
  
- . : Write memory value as ASCII char to output then go to next instruction
+ "." : Write memory value as ASCII char to output then go to next instruction
  
- [ : Go to next instruction if cell is not null, or to the matching closing "]" if null
+ "[" : Go to next instruction if cell is not null, or to the matching closing "]" if null
  
- ] : Go back to the matching opening "[" if cell is not null, or go to next instruction if null
+ "]" : Go back to the matching opening "[" if cell is not null, or go to next instruction if null
